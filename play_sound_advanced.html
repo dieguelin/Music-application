@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+// Declaracion de variables de tipo audio
+var cmajor = new Audio();
+var cminor = new Audio();
+var c_augmented = new Audio();
+var c_diminished = new Audio();
+// Conectando las variables al file de Audio que les corresponde
+cmajor.src = "cmajor.mp3";
+cminor.src = "cminor.mp3";
+c_augmented.src = new "c_augmented.mp3"
+c_diminished.src = new "c_diminished.mp3"
+
+function PlaySound(acorde) {
+  switch (acorde) {
+    case 'cmajor':
+      cmajor.play();
+      break;
+    case 'cminor':
+      cminor.play();
+      break;
+    case 'c_augmented':
+      c_augmented.play();
+      break;
+    case 'c_diminished':
+      c_diminished.play();
+      break;
+  }
+}
+</script>
+
+</head>
+<body>
+
+<audio id="cmajor"> </audio>
+<button onclick="PlaySound('cmajor')"> C major </button>
+<button type="button" onclick="alert('Hello world!')">+</button>
+
+<audio id="cminor"> </audio>
+<button onclick="PlaySound('cminor')"> C minor </button>
+<button type="button" onclick="alert('Hello world!')">+</button>
+
+<audio id="c_augmented"> </audio>
+<button onclick="PlaySound('c_augmented')"> C augmented </button>
+<button type="button" onclick="alert('Hello world!')">+</button>
+
+<audio id="c_diminished"> </audio>
+<button onclick="PlaySound('c_diminished')"> C diminished </button>
+<button type="button" onclick="alert('Hello world!')">+</button>
+
+</body>
+</html>
