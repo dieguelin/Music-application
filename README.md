@@ -6,6 +6,11 @@ https://stackoverflow.com/questions/32913026/click-a-button-to-play-sound-on-jav
 
 Investigar sobre
 Audio play() Method
-pitch modulation para un mp3 file
+pitch modulation para un mp3 file :
+https://www.w3.org/TR/webaudio/ Puede haber algo en esa pagina. Buscar el termino "pitch"
 
-como agregar una acore y que se quede. 
+como agregar una acore y que se quede? (Investigar)
+
+Investigar sobre:
+.play jquery
+https://stackoverflow.com/questions/32160635/javascript-passing-parameters-to-onplay-eventhandler
